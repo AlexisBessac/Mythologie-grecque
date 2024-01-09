@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 1,6;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+    
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 2rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 1rem 2rem ;
+}
+    
+.d-flex{
+    display: flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section{
+    padding: 5,5rem 0;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+}
+
+.header li{
+    display: inline-flex;
+    align-items: center;
+    padding: 0,5rem;
+}
+
+.header a {
+    color: black;
+    padding-top: 25px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.header a:hover{
+    color:red;
+    text-decoration: underline;
+}
+ 
+.hero{
+    background-color: white;
+    color: black;
+    padding: 1rem 0 0 0;
+}
+
+.hero__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:749px){
+    .hero__item.left{
+        order: 2;
+    }
+    
+    .hero__item.right{
+        order: 1;
+    }
+    header a{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+h2{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.chaos__left{
+    text-align: left;
+}
+
+.chaos__right{
+    margin-left: 50px;
+}
+
+.ouranos{
+   text-align: left;
+}
+
+.cronos__left{
+    text-align: left;
+}
+
+.cronos__right{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:749px){
+    .cronos__left{
+        order: 2;
+    }
+    
+    .cronos__right{
+        order: 1;
+    }
+}
+
+.zeus__left{
+    margin-right: 10px;
+}
+
+.zeus__rught{
+    text-align: right;
+}
+
+.poseidon__left{
+    text-align: left;
+}
+
+posiedon__right{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:749px){
+    .poseidon__left{
+        order: 2;
+    }
+    
+    .poseidon__right{
+        order: 1;
+    }
+}
+
+@media screen and (max-width:749px){
+    .demeter__left{
+        order: 2;
+    }
+    
+    .demeter__right{
+        order: 1;
+    }
+}
+
+.leto__right{
+    margin-left: 20px;
+}
+
+.apollon__right{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:749px){
+    .apollon__left{
+        order: 2;
+    }
+    
+    .apollon__right{
+        order: 1;
+    }
+}
+
+@media screen and (max-width:749px){
+    .athena__left{
+        order: 2;
+    }
+    
+    .athena__right{
+        order: 1;
+    }
+}
+
+@media screen and (max-width:749px){
+    .dionysos__left{
+        order: 2;
+    }
+    
+    .dionysos__right{
+        order: 1;
+    }
+}
+
+.hephaistos__left{
+    margin-right: 50px;
+}
+
+@media screen and (max-width:749px){
+    .hermes__left{
+        order: 2;
+    }
+    
+    .hermess__right{
+        order: 1;
+    }
+}
+
+.footer{
+    background: white;
+    color: black;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+.footer p{
+    margin: 0;
+}
+
+.footer__grid{
+    align-items: center;
+}
