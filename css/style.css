@@ -17,6 +17,12 @@ body{
 }
     
 
+h1{
+    color: #ff0000;
+    text-align: center;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -111,7 +117,7 @@ li{
 }
 
 h2{
-    color: red;
+    color: #0000ff;
     text-transform: uppercase;
     letter-spacing: 1rem;
 }
